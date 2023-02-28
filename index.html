@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Launch countdown timer</title>
+  <script src="https://kit.fontawesome.com/159348a646.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+
+
+</head>
+<body>
+
+  <main class="container">
+    <h1 class="title"> We're launching soon</h1>
+    <div class="counter">
+      <div class="counter-box">      
+          <div class="flip-card" >
+            <div class="top" id="data" data-days>00</div>
+            <div class="bottom"id="data" data-days>00</div>
+        </div>
+        <div class="box-title">Days</div>
+      </div>
+
+      <div class="counter-box">
+        <div class="flip-card" >
+            <div class="top"data-hours id="data">00</div>
+            <div class="bottom"data-hours id="data">00</div>
+        <div class="box-title">Hours</div>
+      </div>
+    </div>
+      <div class="counter-box">
+          <div class="flip-card" >
+            <div class="top"data-minutes id="data">00</div>
+            <div class="bottom"data-minutes id="data">00</div>
+          </div>
+        <div class="box-title">Minutes</div>
+      </div>
+      <div class="counter-box">
+          <div class="flip-card" >
+            <div class="top"data-seconds id="data">00</div>
+            <div class="bottom"data-seconds id="data">00</div>
+          </div>
+        <div class="box-title">Seconds</div>
+      </div>
+    </div>
+
+<div class="set-date">  
+  <p class="info">Set the date event</p>
+<input id="dateInput" type="date">
+<button class="start-btn">Start</button>
+</div>
+   
+  </main> 
+
+  <footer class="footer">
+    
+  <div class="icon-box">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+    <a href="#">  <i class="fa-brands fa-instagram"></i></a>
+    
+  </div>
+  <p>  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor </a><span class="year"></span>. </p>
+   <p class="block"> Coded by <a href="https://www.instagram.com/monikajaroszewicz_stylistka/"  target="_blank">MJ</a>.</p>
+  </footer>
+</body>
+</html>
+
